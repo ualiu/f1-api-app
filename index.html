@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <section> 
+
+    <section class="header">
+    <h1>Formula1 Constructors</h1>
+    <p>Welcome to my Formula1 Web API. Use this web app API to find key historical infomration on
+      each one of the current F1 teams. Start looking each team up by name using the search form below (ie: Ferrari)
+    </p>
+  </section>
+
+  <section class="teamsHeader">
+    <p>Teams: <em>Redbull, Ferrari, Mercedes, Alpine, Mclaren, Alfaromeo, Haas, Alphatauri, AstonMartin, Williams</em></p>
+  </section>
+
+    <sectio class="search-form">
+      <input type="text" placeholder="enter team name">
+      <button>Get info</button>
+    </sectio>
+
+    <main class="main">
+      <section class="stats">
+        
+        <ul class="ul-stats">
+          <li><img src="" id="logo"></li>
+          <li><span>Team Name: </span><span class="placeHolderSpan" id="fullTeamName"></span></li>
+          <li><span>Base: </span><span class="placeHolderSpan" id="base"></span></li>
+          <li><span>Team Chief: </span><span class="placeHolderSpan" id="teamChief"></span></li>
+          <li><span>Technical Chief: </span><span class="placeHolderSpan" id="technicalChief"></span></li>
+          <li><span>Chasis: </span><span class="placeHolderSpan" id="chasis"></span></li>
+          <li><span>Power Unit: </span><span class="placeHolderSpan" id="powerUnit"></span></li>
+          <li><span>First Team Entry: </span><span class="placeHolderSpan" id="firstTeamEntry"></span></li>
+          <li><span>World Championships: </span><span class="placeHolderSpan" id="worldChampionships"></span></li>
+          <li><span>First Place Finishes: </span><span class="placeHolderSpan" id="firstPlaceFinishes"></span></li>
+          <li><span>Pole Positions: </span><span class="placeHolderSpan" id="polePositions"></span></li>
+          <li><span>Fastest Laps: </span><span class="placeHolderSpan" id="fastestLap"></span></li>        
+        </ul>
+      </section>
+
+      <section class="driver1">
+        
+        <ul class="ul-drivers">
+          <li><img src="" id="driverOneImg"></li>
+          <li><span>Driver1: </span><span class="placeHolderSpan" id="driverOneName"></span></li>
+        </ul>
+      </section>
+
+      <section class="driver2">
+        
+        <ul class="ul-drivers">
+          <li><img src="" id="driverTwoImg"></li>
+          <li><span>Driver2: </span><span class="placeHolderSpan" id="driverTwoName"></span></li>
+        </ul>
+      </section>
+    </main>
+
+ 
+  </section>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
